@@ -12,24 +12,24 @@ export const Footbar = () => {
               </div>
               <div class="flex flex-1 flex-col">
                 <span class="font-bold uppercase mb-2">A propos</span>
-                <span class="my-2"><a href="#" class="text-gray-300  text-md hover:text-gray-500">Carrière</a></span>
-                <span class="my-2"><a href="#" class="text-gray-300  text-md hover:text-gray-500">CGU</a></span>
-                <span class="my-2"><a href="#" class="text-gray-300  text-md hover:text-gray-500">Confidentialité</a></span>
-                <span class="my-2"><a href="#" class="text-gray-300  text-md hover:text-gray-500">Contact</a></span>
+                <span class="my-2"><Link href="#" class="text-gray-300  text-md hover:text-gray-500">Carrière</Link></span>
+                <span class="my-2"><Link href="#" class="text-gray-300  text-md hover:text-gray-500">CGU</Link></span>
+                <span class="my-2"><Link href="#" class="text-gray-300  text-md hover:text-gray-500">Confidentialité</Link></span>
+                <span class="my-2"><Link href="#" class="text-gray-300  text-md hover:text-gray-500">Contact</Link></span>
               </div>
               <div class="flex flex-1 flex-col">
                 <span class="font-bold uppercase mt-4 md:mt-0 mb-2">Produit</span>
-                <span class="my-2"><a href="#" class="text-gray-300 text-md hover:text-gray-500">Aide</a></span>
-                <span class="my-2"><a href="#" class="text-gray-300  text-md hover:text-gray-500">Association</a></span>
-                <span class="my-2"><a href="#" class="text-gray-300 text-md hover:text-gray-500">Entreprise</a></span>
-                <span class="my-2"><a href="#" class="text-gray-300 text-md hover:text-gray-500">Particulier</a></span>
+                <span class="my-2"><Link href="#" class="text-gray-300 text-md hover:text-gray-500">Aide</Link></span>
+                <span class="my-2"><Link href="#" class="text-gray-300  text-md hover:text-gray-500">Association</Link></span>
+                <span class="my-2"><Link href="#" class="text-gray-300 text-md hover:text-gray-500">Entreprise</Link></span>
+                <span class="my-2"><Link href="#" class="text-gray-300 text-md hover:text-gray-500">Particulier</Link></span>
               </div>
               <div class="flex flex-1 flex-col">
                 <span class="font-bold uppercase mt-4 md:mt-0 mb-2">Social</span>
-                <span class="my-2"><a href="#" class="text-gray-300  text-md hover:text-gray-500">Blog</a></span>
-                <span class="my-2"><a href="#" class="text-gray-300  text-md hover:text-gray-500">Discord</a></span>
-                <span class="my-2"><a href="#" class="text-gray-300  text-md hover:text-gray-500">Instagram</a></span>
-                <span class="my-2"><a href="#" class="text-gray-300  text-md hover:text-gray-500">Twitter</a></span>
+                <span class="my-2"><Link href="#" class="text-gray-300  text-md hover:text-gray-500">Blog</Link></span>
+                <span class="my-2"><Link href="#" class="text-gray-300  text-md hover:text-gray-500">Discord</Link></span>
+                <span class="my-2"><Link href="#" class="text-gray-300  text-md hover:text-gray-500">Instagram</Link></span>
+                <span class="my-2"><Link href="#" class="text-gray-300  text-md hover:text-gray-500">Twitter</Link></span>
               </div>
             </div>
           </div>
