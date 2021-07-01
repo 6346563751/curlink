@@ -10,8 +10,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Navbar />
-
       <main className="flex flex-row w-full flex-1 px-20 text-center">
         <div class="flex flex-1 items-center">
           <p class="text-6xl text-gray-800 font-bold mb-2">
@@ -22,8 +20,6 @@ export default function Home() {
           <img src="/Create-rafiki.svg" alt=""/>
         </div>
       </main>
-
-      <Footbar />
     </div>
   )
 }
