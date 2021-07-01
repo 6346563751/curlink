@@ -14,7 +14,7 @@ export const Footbar = () => {
                 <span class="font-bold uppercase mb-2">A propos</span>
                 <span class="my-2"><Link href="#" class="text-gray-300  text-md hover:text-gray-500">Carrière</Link></span>
                 <span class="my-2"><Link href="#" class="text-gray-300  text-md hover:text-gray-500">CGU</Link></span>
-                <span class="my-2"><Link href="#" class="text-gray-300  text-md hover:text-gray-500">Confidentialité</Link></span>
+                <span class="my-2"><Link href="/privacy" class="text-gray-300  text-md hover:text-gray-500">Confidentialité</Link></span>
                 <span class="my-2"><Link href="#" class="text-gray-300  text-md hover:text-gray-500">Contact</Link></span>
               </div>
               <div class="flex flex-1 flex-col">
