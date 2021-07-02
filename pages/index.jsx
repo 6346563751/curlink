@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { Navbar } from '../components/Navbar'
 import { Footbar } from '../components/Footbar'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -11,13 +12,13 @@ export default function Home() {
       </Head>
 
       <main className="flex flex-row w-full flex-1 px-20 text-center">
-        <div class="flex flex-1 items-center">
-          <p class="text-6xl text-gray-800 font-bold mb-2">
-            Imagine a <span class="text-yellow-400">free</span> place between <span class="text-red-400">work</span> and <span class="text-red-400">professionals</span>...
+        <div className="flex flex-1 items-center">
+          <p className="text-6xl text-gray-800 font-bold mb-2">
+            Imagine a <span className="text-yellow-400">free</span> place between <span className="text-red-400">work</span> and <span className="text-red-400">professionals</span>...
           </p>
         </div>
-        <div class="flex flex-1">
-          <img src="/Create-rafiki.svg" alt=""/>
+        <div className="flex flex-1">
+          <Image src="/Create-rafiki.svg" height={700} width={700} alt=""/>
         </div>
       </main>
     </div>
