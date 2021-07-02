@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { Navbar } from '../components/Navbar'
+import { Footbar } from '../components/Footbar'
 
 export default function Home(): JSX.Element {
   return (
@@ -8,7 +10,7 @@ export default function Home(): JSX.Element {
         <title>RXSUM - The place for professionals</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <Navbar/>
       <main className="flex flex-row w-full flex-1 px-20 text-center">
         <div className="flex flex-1 items-center">
           <p className="text-6xl text-gray-800 font-bold mb-2">
@@ -19,6 +21,7 @@ export default function Home(): JSX.Element {
           <Image src="/Create-rafiki.svg" height={700} width={700} alt=""/>
         </div>
       </main>
+      <Footbar/>
     </div>
   )
 }

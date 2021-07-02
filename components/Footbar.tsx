@@ -3,7 +3,7 @@ import Link from 'next/link'
 export const Footbar = (): JSX.Element => {
   return (
     <>
-      <footer className="items-center justify-center w-full bg-gray-800 text-white mt-10 pt-4">
+      <footer className="items-center justify-center w-full bg-gray-800 text-white mt-20 pt-4">
         <div className="container mx-auto px-6">
           <div className="sm:flex sm:mt-8">
             <div className="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between">

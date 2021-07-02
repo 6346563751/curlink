@@ -1,6 +1,10 @@
+import { Navbar } from '../components/Navbar'
+import { Footbar } from '../components/Footbar'
+
 export default function Privacy(): JSX.Element {
   return (
     <>
+      <Navbar/>
       <main className="flex flex-col justify-center items-center mx-10 font-mono">
         <p className="text-7xl font-serif font-bold my-5">Privacy 🕵️</p> 
         <br/>
@@ -12,6 +16,7 @@ export default function Privacy(): JSX.Element {
         <br/>
         <p className="text-xl">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas finibus enim eget finibus eleifend. Maecenas porta lobortis semper. Vivamus non nisi elementum, venenatis ante sed, suscipit dolor. Aliquam volutpat ligula nec est fermentum semper. Curabitur vel nulla quis erat bibendum interdum at vitae lorem. Donec a tempor elit, quis pretium dui. Etiam justo enim, ultricies ut semper id, maximus viverra dui. Donec non elit elementum, congue neque id, cursus erat. Praesent bibendum purus consectetur nisl ullamcorper, non finibus libero congue. Fusce sagittis ultrices tellus, eget elementum ligula lacinia a.</p>
       </main>
+      <Footbar/>
     </>
   )
 }
