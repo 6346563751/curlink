@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const Navbar = () => {
+export const Navbar = (): JSX.Element => {
   return (
     <>
       <nav className='w-full flex flex-auto items-center flex-wrap p-3 mb-3 border-gray-200 border-b'>

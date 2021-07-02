@@ -1,8 +1,4 @@
-import Head from 'next/head'
-import { Navbar } from '../components/Navbar'
-import { Footbar } from '../components/Footbar'
-
-export default function Privacy() {
+export default function Privacy(): JSX.Element {
   return (
     <>
       <main className="flex flex-col justify-center items-center mx-10 font-mono">

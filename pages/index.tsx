@@ -1,9 +1,7 @@
 import Head from 'next/head'
-import { Navbar } from '../components/Navbar'
-import { Footbar } from '../components/Footbar'
 import Image from 'next/image'
 
-export default function Home() {
+export default function Home(): JSX.Element {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">
       <Head>

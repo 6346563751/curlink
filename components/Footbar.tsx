@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export const Footbar = () => {
+export const Footbar = (): JSX.Element => {
   return (
     <>
       <footer className="items-center justify-center w-full bg-gray-800 text-white mt-10 pt-4">
