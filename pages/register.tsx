@@ -12,7 +12,7 @@ export default function Home(): JSX.Element {
 
       <main className="flex flex-row w-full">
         <div className="absolute top-7 right-7 text-lg font-serif">
-          <p>Already a member? <Link href="/login"><span className="text-gray-700">Sign In</span></Link></p>
+          <p>Already a member? <span className="text-gray-700"><Link href="/login">Sign In</Link></span></p>
         </div>
         <div className="absolute top-3 left-3 z-10">
           <p className="text-4xl font-serif text-white ml-10 my-10"><Link href="/">RXSUM</Link></p>
