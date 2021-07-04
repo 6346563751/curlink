@@ -23,17 +23,19 @@ export default function Home(): JSX.Element {
         </div>
       </main>
        <p className="text-6xl mt-20 text-gray-800 font-bold mb-2 about">
-            What's <span className="border-b-8 border-red-400">RXSUM</span> ?
+            What&#39;s <span className="border-b-8 border-red-400">RXSUM</span> ?
       </p>
        <p className="text-2xl mt-14 mx-20 text-gray-800 font-bold mb-2 about-desc">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam faucibus gravida tempus. Suspendisse ac hendrerit libero. Nullam at nibh in orci aliquet sodales. Phasellus pulvinar rutrum nunc sed pharetra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec id ligula nibh. Aliquam et nisl magna. Aenean sit amet velit magna. Vestibulum suscipit tellus vitae tortor dignissim viverra.
       </p>
-      <Footbar/>
-      <Script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"   onLoad={() => {
-        window.sr = ScrollReveal({ reset: true });
+
+      <Script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js" onLoad={() => {
+        const sr = ScrollReveal({ reset: true })
         sr.reveal('.about', { duration: 1000 })
         sr.reveal('.about-desc', { duration: 1200 })
       }}/>
+
+      <Footbar/>
     </div>
   )
 }

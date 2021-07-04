@@ -90,7 +90,7 @@ export default function Home(): JSX.Element {
                 <input type="password" className="w-full bg-gray-100 form-input px-4 py-3 rounded-full" placeholder="****************"
                 {...register("confirmation", {
                   required: "Required",
-                  validate: value => value === document.getElementById("password").value
+                  validate: value => value === (document.getElementById("password") as HTMLInputElement).value
                 })}/>
               </div>
             </div>
