@@ -5,10 +5,9 @@ import { useForm } from "react-hook-form"
 
 export default function Home(): JSX.Element {
   const { register, handleSubmit, formState: { errors } } = useForm()
-  // handle form submit
+
   const onSubmit = (data) => console.log({ data })
 
-  console.error(errors)
   return (
     <>
       <Head>
@@ -23,7 +22,7 @@ export default function Home(): JSX.Element {
         <div className="absolute top-3 left-3 z-10">
           <p className="text-4xl font-serif text-white ml-10 my-10"><Link href="/">RXSUM</Link></p>
         </div>
-        <div className="flex flex-initial w-1/3 min-h-screen bg-gray-800" style={{width: 31.03953147877013+"%"}}>
+        <div className="flex flex-initial min-h-screen bg-gray-800" style={{width: 31.03953147877013+"%"}}>
           <Image src="/Subscriber-bro.svg" height={600} width={600} alt=""/>
         </div>
         <div className="h-screen flex flex-auto justify-center items-center">
