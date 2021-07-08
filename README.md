@@ -1,7 +1,6 @@
 
 # Rxsum
-
-Rxsum is a decentralized market bringing together groups and professionals.
+Rxsum is a platform that allows companies and employees to build immutable and verifiable work experiences. De facto, Rxsum extends the capabilities of the traditional Curriculum Vitae. Furthermore, the platform defines itself as a free marketplace for professionals.
 
 ## Deploy your own
 
