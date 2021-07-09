@@ -8,7 +8,7 @@ export default function Home(): JSX.Element {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">
       <Head>
-        <title>RXSUM - The place for professionals</title>
+        <title>Curlink - The place for professionals</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar/>
@@ -23,10 +23,10 @@ export default function Home(): JSX.Element {
         </div>
       </main>
        <p className="text-6xl mt-20 text-gray-800 font-bold mb-2 about">
-            What&#39;s <span className="border-b-8 border-red-400">RXSUM</span> ?
+            What&#39;s <span className="border-b-8 border-red-400">Curlink</span> ?
       </p>
        <p className="text-2xl mt-14 mx-20 text-gray-800 font-bold mb-2 about-desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam faucibus gravida tempus. Suspendisse ac hendrerit libero. Nullam at nibh in orci aliquet sodales. Phasellus pulvinar rutrum nunc sed pharetra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec id ligula nibh. Aliquam et nisl magna. Aenean sit amet velit magna. Vestibulum suscipit tellus vitae tortor dignissim viverra.
+        Curlink is a platform that allows companies and employees to build immutable and verifiable work experiences. De facto, Curlink extends the capabilities of the traditional Curriculum Vitae. Furthermore, the platform defines itself as a free marketplace for professionals.
       </p>
 
       <Script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js" onLoad={() => {

@@ -1,14 +1,14 @@
 
-# Rxsum
-Rxsum is a platform that allows companies and employees to build immutable and verifiable work experiences. De facto, Rxsum extends the capabilities of the traditional Curriculum Vitae. Furthermore, the platform defines itself as a free marketplace for professionals.
+# Curlink
+Curlink is a platform that allows companies and employees to build immutable and verifiable work experiences. De facto, Curlink extends the capabilities of the traditional Curriculum Vitae. Furthermore, the platform defines itself as a free marketplace for professionals.
 
 ## Deploy your own
 
 
 Nodejs and npm (or yarn) are required to deploy the project.
 ```
-git clone https://github.com/6346563751/rxsum.git
-cd rxsum
+git clone https://github.com/6346563751/curlink.git
+cd curlink
 npm install
 ```
 For local development :

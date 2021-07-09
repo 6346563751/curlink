@@ -11,7 +11,7 @@ export default function Home(): JSX.Element {
   return (
     <>
       <Head>
-        <title>RXSUM - The place for professionals</title>
+        <title>Curlink - The place for professionals</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -20,7 +20,7 @@ export default function Home(): JSX.Element {
           <p>Already a member? <span className="text-gray-700"><Link href="/login">Sign In</Link></span></p>
         </div>
         <div className="absolute top-3 left-3 z-10">
-          <p className="text-4xl font-serif text-white ml-10 my-10"><Link href="/">RXSUM</Link></p>
+          <p className="text-4xl font-serif text-white ml-10 my-10"><Link href="/">Curlink</Link></p>
         </div>
         <div className="flex flex-initial min-h-screen bg-gray-800" style={{width: 31.03953147877013+"%"}}>
           <Image src="/Subscriber-bro.svg" height={600} width={600} alt=""/>

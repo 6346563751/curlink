@@ -38,7 +38,7 @@ export const Footbar = (): JSX.Element => {
           <div className="mt-16 border-t-2 border-gray-300 flex flex-col items-center">
             <div className="sm:w-2/3 text-center py-6">
               <p className="text-sm text-gray-300 font-bold mb-2">
-                  RXSUM
+                  Curlink
               </p>
             </div>
           </div>
